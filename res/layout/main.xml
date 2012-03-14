@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/image_view_content_desc"
+        android:background="#ffffff"
+        android:padding="5dip"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strip 1"
+        android:textAppearance="?android:attr/textAppearanceMedium" />    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        <TextView
+            android:id="@+id/textView1r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <EditText
+	        android:id="@+id/editText1r"
+	        android:layout_width="60dip"
+	        android:layout_height="wrap_content"
+	        android:inputType="number"
+	        android:maxLength="3"
+	        android:text="0"
+	        android:imeOptions="actionDone"
+	        android:onClick="getSliderInput" >	    </EditText>
+	    <TextView
+            android:id="@+id/textView1g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <EditText
+	        android:id="@+id/editText1g"
+	        android:layout_width="60dip"
+	        android:layout_height="wrap_content"
+	        android:inputType="number"
+	        android:maxLength="3"
+	        android:text="0"
+	        android:imeOptions="actionDone"
+	        android:onClick="getSliderInput" >
+	    </EditText>
+	    <TextView
+            android:id="@+id/textView1b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <EditText
+	        android:id="@+id/editText1b"
+	        android:layout_width="60dip"
+	        android:layout_height="wrap_content"
+	        android:inputType="number"
+	        android:maxLength="3"
+	        android:text="0"
+	        android:imeOptions="actionDone"
+	        android:onClick="getSliderInput" >
+	    </EditText>
+	    <TextView
+            android:id="@+id/textView1a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+	    <EditText
+	        android:id="@+id/editText1a"
+	        android:layout_width="60dip"
+	        android:layout_height="wrap_content"
+	        android:inputType="number"
+	        android:maxLength="3"
+	        android:text="255"
+	        android:imeOptions="actionDone"
+	        android:onClick="getSliderInput" >
+	    </EditText>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strip 2"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        <TextView
+            android:id="@+id/textView2r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <EditText
+            android:id="@+id/editText2r"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="0"
+            android:imeOptions="actionDone"
+            android:onClick="getSliderInput" >
+        </EditText>
+        <TextView
+            android:id="@+id/textView2g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <EditText
+            android:id="@+id/editText2g"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="0"
+            android:imeOptions="actionDone"
+            android:onClick="getSliderInput" >
+        </EditText>
+        <TextView
+            android:id="@+id/textView2b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <EditText
+            android:id="@+id/editText2b"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="0"
+            android:imeOptions="actionDone"
+            android:onClick="getSliderInput" >
+        </EditText>
+        <TextView
+            android:id="@+id/textView2a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <EditText
+            android:id="@+id/editText2a"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="255"
+            android:imeOptions="actionDone"
+            android:onClick="getSliderInput" >
+        </EditText>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strip 3"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center" >
+        <TextView
+            android:id="@+id/textView3r"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="R"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <EditText
+            android:id="@+id/editText3r"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="0"
+            android:imeOptions="actionDone"
+            android:onClick="getSliderInput" >
+        </EditText>
+        <TextView
+            android:id="@+id/textView3g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="G"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <EditText
+            android:id="@+id/editText3g"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="0"
+            android:imeOptions="actionDone"
+            android:onClick="getSliderInput" >
+        </EditText>
+        <TextView
+            android:id="@+id/textView3b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="B"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <EditText
+            android:id="@+id/editText3b"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="0"
+            android:imeOptions="actionDone"
+            android:onClick="getSliderInput" >
+        </EditText>
+        <TextView
+            android:id="@+id/textView3a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        <EditText
+            android:id="@+id/editText3a"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:maxLength="3"
+            android:text="255"
+            android:imeOptions="actionDone"
+            android:onClick="getSliderInput" >
+        </EditText>
+    </LinearLayout>
+</LinearLayout>
