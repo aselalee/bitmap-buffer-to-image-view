@@ -3,5 +3,6 @@
 
     <string name="app_name">ImageView</string>
     <string name="image_view_content_desc">TestImageView</string>
+    <string name="btn_txt">OK</string>
 
 </resources>
